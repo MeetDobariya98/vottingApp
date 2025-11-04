@@ -1,3 +1,5 @@
 ************************************ Steps of votting app *******************************
 1.->create a server.js
 2.->npm init
+3.->planning your application models,routs and functionality
+4.->
