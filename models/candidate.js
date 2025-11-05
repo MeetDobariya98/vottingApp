@@ -35,6 +35,7 @@ const candidateSchema=new mongoose.Schema({
    
 })
 
+
 //create person model
 const Candidate=mongoose.model('Candidate',candidateSchema);
 module.exports=Candidate;
