@@ -12,9 +12,11 @@ app.use(bodyParser.json());
 
 // Import routes
 const userRoutes = require('./routs/userRouts');
+const candidateRouts = require('./routs/candidateRouts');
 
 // Use routes
 app.use('/user', userRoutes);
+app.use('/candidate',candidateRouts);
 
 // Define port
 const PORT = process.env.PORT || 3000;
